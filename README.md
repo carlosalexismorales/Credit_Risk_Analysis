@@ -32,7 +32,7 @@ In the images below, we use Machine Learning to resample the dataset using Pytho
 In this part of the analysis, we compare two oversampling algorithms to determine which algorithm results in the best performance. We oversample the data using the naive random oversampling algorithm and the SMOTE algorithm.
 
 
-In the images below, we first view the count of the target classes using Counter from the collections library. Then, use the resampled data to train a logistic regression model. Next, calculate the balanced accuracy score from sklearn.metrics and print the confusion matrix from sklearn.metrics. And finally, generate a classication report using the imbalanced_classification_report from imbalanced-learn.
+
 
 
 
@@ -56,8 +56,6 @@ In the images below, we first view the count of the target classes using Counter
 In this part of the analysis, we test an undersampling algorithms to determine which algorithm results in the best performance compared to the oversampling algorithms above. We undersample the data using the Cluster Centroids algorithm. 
 
 
-In the images below, we first view the count of the target classes using Counter from the collections library. Then, use the resampled data to train a logistic regression model. Next, calculate the balanced accuracy score from sklearn.metrics and print the confusion matrix from sklearn.metrics. And finally, generate a classication report using the imbalanced_classification_report from imbalanced-learn.
-
 
 
 
@@ -68,7 +66,7 @@ In the images below, we first view the count of the target classes using Counter
 In this part of the analysis, we test a combination over- and under-sampling algorithm to determine if the algorithm results in the best performance compared to the other sampling algorithms above. We resample the data using the SMOTEENN algorithm.
 
 
-In the images below, we first view the count of the target classes using Counter from the collections library. Then, use the resampled data to train a logistic regression model. Next, calculate the balanced accuracy score from sklearn.metrics and print the confusion matrix from sklearn.metrics. And finally, generate a classication report using the imbalanced_classification_report from imbalanced-learn.
+
 
 
 
@@ -81,5 +79,5 @@ In the images below, we first view the count of the target classes using Counter
 
 
  
-### Summary 
+## Summary 
 
