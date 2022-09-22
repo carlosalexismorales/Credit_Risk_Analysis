@@ -20,7 +20,7 @@ In order to get the most accurate predictions, we use imbalanced-learn and sciki
 
 ### Splitting Data into Testing and Training 
 
-In the images below, we use Machine Learning to resample the dataset using Python libraries: scikit-learn and imbalanced-learn evaluate the results and provide a comparison for our analysis. We use 'loan_status' as the target value to determine 'low' or 'high' risk. Then, the data is split into testing and training sets. We see the data split for training vs. testing sets with 51,366 'low risk' and 246 'high risk' applications were categorized into the training set and 17,104 'low' risk and 101 'high' risk applications into testing. 
+In the images below, we use Machine Learning to resample the dataset using Python libraries: scikit-learn and imbalanced-learn evaluate the results and provide a comparison for our analysis. We use 'loan_status' as the target value to determine 'low risk' or 'high risk'. Then, the data is split into testing and training sets. We see the data split for training vs. testing sets with 51,366 'low risk' and 246 'high risk' applications were categorized into the training set and 17,104 'low' risk and 101 'high' risk applications into testing. 
 
 
 
@@ -46,6 +46,15 @@ In this part of the analysis, we compare two oversampling algorithms to determin
 
 
 #### Naive Random Oversampling 
+
+We see the following in the images below: 
+
+- With the naive random oversampling algorithm, we see the results classified 51,366 records each as 'High Risk' and 'Low Risk'. 
+- Balanced accuracy score: 67%
+- The 'High Risk' precision rate was only 1% with the recall at 74% giving this model an F1 score of 2%.
+- The 'Low Risk' had a precision rate of 100% and recall at 61% giving this model an F1 score of 75%
+
+
 
 
 <img width="1012" alt="Screen Shot 2022-09-21 at 8 46 07 PM" src="https://user-images.githubusercontent.com/102444078/191653905-af7d65e2-4481-400b-ad12-ccef25322f44.png">
