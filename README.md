@@ -3,7 +3,9 @@
 
 ## Project Overview
 
-In this analysis, Machine Learning statistical algorithms are used to make predictions and find patterns from a database. This type of Machine Learning is Supervised because the data has labeled outcomes that we used. This analysis uses a dataset from LendingClub to predict credit and loan risk - this will help the company make better decisions when they are evaluating potiential borrowers since credit risk is an inherently unbalanced classification problem, as good loans  outnumber risky loans. Therefore, in order to get the most accurate predictions, we use imbalanced-learn and scikit-learn libraries to build and evaluate models using resampling. We also oversample the data using the RandomOverSampler and SMOTE algorithms, and undersample the data using the ClusterCentroids algorithm. Then, we use a combinatorial approach of over- and undersampling using the SMOTEENN algorithm. Next, we compare two new machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk. Finally, we evaluate the performance of these models. 
+In this analysis, Machine Learning statistical algorithms are used to make predictions and find patterns from a database. This type of Machine Learning is Supervised because the data has labeled outcomes that we used. This analysis uses a dataset from LendingClub to predict credit and loan risk - this will help the company make better decisions when they are evaluating potiential borrowers since credit risk is an inherently unbalanced classification problem, as good loans  outnumber risky loans. 
+
+In order to get the most accurate predictions, we use imbalanced-learn and scikit-learn libraries to build and evaluate models using resampling. We also oversample the data using the RandomOverSampler and SMOTE algorithms, and undersample the data using the ClusterCentroids algorithm. Then, we use a combinatorial approach of over- and undersampling using the SMOTEENN algorithm. Next, we compare two new machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk. Finally, we evaluate the performance of these models. 
 
 
 ## Challenge Overview
@@ -15,9 +17,15 @@ In this analysis, Machine Learning statistical algorithms are used to make predi
 
 ## Results
 
+
 ### Splitting Data into Testing and Training 
 
 In the images below, we use Machine Learning to resample the dataset using Python libraries: scikit-learn and imbalanced-learn evaluate the results and provide a comparison for our analysis. We use 'loan_status' as the target value to determine 'low' or 'high' risk. Then, the data is split into testing and training sets.
+
+
+
+
+<img width="1007" alt="Screen Shot 2022-09-21 at 8 37 15 PM" src="https://user-images.githubusercontent.com/102444078/191652937-3b19a5ee-ee04-479b-b01b-31d9148bbb4b.png">
 
 
 
