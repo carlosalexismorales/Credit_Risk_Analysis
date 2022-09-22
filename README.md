@@ -105,6 +105,23 @@ In the images below, we see the following:
 In this part of the analysis, we test an undersampling algorithms to determine which algorithm results in the best performance compared to the oversampling algorithms above. We undersample the data using the Cluster Centroids algorithm. 
 
 
+In the images below, we see the following:
+
+- Balanced accuracy score: 54%
+- The 'High Risk' had a precision rate of 1% with the recall at 69% giving this model an F1 score of 1%.
+- The 'Low Risk' had a precision rate of 100% and recall at 40% giving this model an F1 score of 57%
+
+
+<img width="1015" alt="Screen Shot 2022-09-21 at 9 08 02 PM" src="https://user-images.githubusercontent.com/102444078/191656342-cb644833-df25-4f8a-b78a-75ed6688db96.png">
+
+
+
+
+
+
+<img width="1014" alt="Screen Shot 2022-09-21 at 9 08 22 PM" src="https://user-images.githubusercontent.com/102444078/191656389-62677e12-b407-4e9b-9116-9b2d0db02e46.png">
+
+
 
 
 
