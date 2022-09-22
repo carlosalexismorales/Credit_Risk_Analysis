@@ -49,9 +49,9 @@ In this part of the analysis, we compare two oversampling algorithms to determin
 
 We see the following in the images below: 
 
-- With the naive random oversampling algorithm, we see the results classified 51,366 records each as 'High Risk' and 'Low Risk'. 
+- With the naive random oversampling algorithm, we see the results classified 51,366 records each as 'High Risk' and 'Low Risk'
 - Balanced accuracy score: 67%
-- The 'High Risk' precision rate was 1% with the recall at 74% giving this model an F1 score of 2%.
+- The 'High Risk' precision rate was 1% with the recall at 74% giving this model an F1 score of 2%
 - The 'Low Risk' had a precision rate of 100% and recall at 61% giving this model an F1 score of 75%
 
 
@@ -78,7 +78,7 @@ We see the following in the images below:
 In the images below, we see the following: 
 
 - Balanced accuracy score: 66%
-- The 'High Risk' had a precision rate of 1% with the recall at 63% giving this model an F1 score of 2%.
+- The 'High Risk' had a precision rate of 1% with the recall at 63% giving this model an F1 score of 2%
 - The 'Low Risk' had a precision rate of 100% and recall at 69% giving this model an F1 score of 82%
 
 
@@ -108,7 +108,7 @@ In this part of the analysis, we test an undersampling algorithms to determine w
 In the images below, we see the following:
 
 - Balanced accuracy score: 54%
-- The 'High Risk' had a precision rate of 1% with the recall at 69% giving this model an F1 score of 1%.
+- The 'High Risk' had a precision rate of 1% with the recall at 69% giving this model an F1 score of 1%
 - The 'Low Risk' had a precision rate of 100% and recall at 40% giving this model an F1 score of 57%
 
 
@@ -135,7 +135,7 @@ In this part of the analysis, we test a combination over- and under-sampling alg
 We see the following in the images below:
 
 - Balanced accuracy score: 65%
-- The 'High Risk' had a precision rate of 1% with the recall at 72% giving this model an F1 score of 2%.
+- The 'High Risk' had a precision rate of 1% with the recall at 72% giving this model an F1 score of 2%
 - The 'Low Risk' had a precision rate of 100% and recall at 57% giving this model an F1 score of 72%
 
 
@@ -156,8 +156,9 @@ In this part of the analysis, we compare two ensemble algorithms to determine wh
 We see the following in the images below:
 
 - Balanced accuracy score: 79%
-- The 'High Risk' had a precision rate of 3% with the recall at 70% giving this model an F1 score of 6%.
+- The 'High Risk' had a precision rate of 3% with the recall at 70% giving this model an F1 score of 6%
 - The 'Low Risk' had a precision rate of 100% and recall at 87% giving this model an F1 score of 93%
+- The top feature by importance was "total_rec_prncp" at 7.9% 
 
 
 <img width="1008" alt="Screen Shot 2022-09-21 at 9 17 10 PM" src="https://user-images.githubusercontent.com/102444078/191657375-ebea0015-0976-488f-a999-f195eaff8e32.png">
@@ -178,7 +179,7 @@ We see the following in the images below:
 We see the following in the images below:
 
 - Balanced accuracy score: 93%
-- The 'High Risk' had a precision rate of 9% with the recall at 92% giving this model an F1 score of 16%.
+- The 'High Risk' had a precision rate of 9% with the recall at 92% giving this model an F1 score of 16%
 - The 'Low Risk' had a precision rate of 100% and recall at 94% giving this model an F1 score of 97%
 
 
