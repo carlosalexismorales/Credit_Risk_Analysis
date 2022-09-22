@@ -153,9 +153,45 @@ In this part of the analysis, we compare two ensemble algorithms to determine wh
 
 #### Balanced Forest Classifier
 
+We see the following in the images below:
+
+- Balanced accuracy score: 79%
+- The 'High Risk' had a precision rate of 3% with the recall at 70% giving this model an F1 score of 6%.
+- The 'Low Risk' had a precision rate of 100% and recall at 87% giving this model an F1 score of 93%
 
 
-<img width="1011" alt="Screen Shot 2022-09-21 at 9 16 21 PM" src="https://user-images.githubusercontent.com/102444078/191657293-7f342753-8079-4daf-a898-e5144955ed95.png">
+<img width="1008" alt="Screen Shot 2022-09-21 at 9 17 10 PM" src="https://user-images.githubusercontent.com/102444078/191657375-ebea0015-0976-488f-a999-f195eaff8e32.png">
+
+
+
+
+<img width="1029" alt="Screen Shot 2022-09-21 at 9 17 29 PM" src="https://user-images.githubusercontent.com/102444078/191657411-422885b0-9e63-43a2-a7fa-b9bf56e697c8.png">
+
+
+
+<img width="1029" alt="Screen Shot 2022-09-21 at 9 18 07 PM" src="https://user-images.githubusercontent.com/102444078/191657466-a5b3baa0-7e72-428d-b261-5d337142c652.png">
+
+
+#### Easy Ensemble AdaBoost Classifier
+
+
+We see the following in the images below:
+
+- Balanced accuracy score: 93%
+- The 'High Risk' had a precision rate of 9% with the recall at 92% giving this model an F1 score of 16%.
+- The 'Low Risk' had a precision rate of 100% and recall at 94% giving this model an F1 score of 97%
+
+
+<img width="1008" alt="Screen Shot 2022-09-21 at 9 20 30 PM" src="https://user-images.githubusercontent.com/102444078/191657710-0f6a1fcb-d997-4610-a9ed-b12a5acd6ada.png">
+
+
+
+
+<img width="1010" alt="Screen Shot 2022-09-21 at 9 21 15 PM" src="https://user-images.githubusercontent.com/102444078/191657796-cf4f5fd4-1edc-475a-ab5a-506040bf20a0.png">
+
+
+
+
 
 
  
