@@ -51,7 +51,7 @@ We see the following in the images below:
 
 - With the naive random oversampling algorithm, we see the results classified 51,366 records each as 'High Risk' and 'Low Risk'. 
 - Balanced accuracy score: 67%
-- The 'High Risk' precision rate was only 1% with the recall at 74% giving this model an F1 score of 2%.
+- The 'High Risk' precision rate was 1% with the recall at 74% giving this model an F1 score of 2%.
 - The 'Low Risk' had a precision rate of 100% and recall at 61% giving this model an F1 score of 75%
 
 
@@ -73,6 +73,28 @@ We see the following in the images below:
 
 
 #### Smote Oversampling 
+
+
+In the images below, we see the following: 
+
+- Balanced accuracy score: 66%
+- The 'High Risk' had a precision rate of 1% with the recall at 63% giving this model an F1 score of 2%.
+- The 'Low Risk' had a precision rate of 100% and recall at 69% giving this model an F1 score of 82%
+
+
+
+<img width="1007" alt="Screen Shot 2022-09-21 at 9 02 41 PM" src="https://user-images.githubusercontent.com/102444078/191655806-253360bb-9df8-47ab-8bf6-13e6f0df6d5e.png">
+
+
+
+<img width="1017" alt="Screen Shot 2022-09-21 at 9 03 00 PM" src="https://user-images.githubusercontent.com/102444078/191655835-6846dd2d-9c49-4e17-b5ae-e939dc0d2e65.png">
+
+
+
+
+
+
+
 
 
 
