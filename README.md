@@ -48,7 +48,16 @@ In this part of the analysis, we compare two oversampling algorithms to determin
 #### Naive Random Oversampling 
 
 
+<img width="1012" alt="Screen Shot 2022-09-21 at 8 46 07 PM" src="https://user-images.githubusercontent.com/102444078/191653905-af7d65e2-4481-400b-ad12-ccef25322f44.png">
 
+
+
+<img width="1022" alt="Screen Shot 2022-09-21 at 8 46 23 PM" src="https://user-images.githubusercontent.com/102444078/191653944-8a87b9f3-dc11-4a21-9f87-e2b358621372.png">
+
+
+
+
+<img width="1004" alt="Screen Shot 2022-09-21 at 8 46 47 PM" src="https://user-images.githubusercontent.com/102444078/191653988-3002b5db-d729-4ead-a18e-1bbaf0431944.png">
 
 
 
