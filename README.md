@@ -20,7 +20,7 @@ In order to get the most accurate predictions, we use imbalanced-learn and sciki
 
 ### Splitting Data into Testing and Training 
 
-In the images below, we use Machine Learning to resample the dataset using Python libraries: scikit-learn and imbalanced-learn evaluate the results and provide a comparison for our analysis. We use 'loan_status' as the target value to determine 'low' or 'high' risk. Then, the data is split into testing and training sets.
+In the images below, we use Machine Learning to resample the dataset using Python libraries: scikit-learn and imbalanced-learn evaluate the results and provide a comparison for our analysis. We use 'loan_status' as the target value to determine 'low' or 'high' risk. Then, the data is split into testing and training sets. We see the data split for training vs. testing sets with 51,366 'low risk' and 246 'high risk' applications were categorized into the training set and 17,104 'low' risk and 101 'high' risk applications into testing. 
 
 
 
@@ -30,6 +30,7 @@ In the images below, we use Machine Learning to resample the dataset using Pytho
 
 
 
+<img width="1012" alt="Screen Shot 2022-09-21 at 8 40 29 PM" src="https://user-images.githubusercontent.com/102444078/191653281-c4d5dd05-6cf2-4a16-887a-b3698f78faf4.png">
 
 
 
