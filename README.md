@@ -198,3 +198,14 @@ We see the following in the images below:
  
 ## Summary 
 
+Ultimately, the EasyEnsembleClassifer model because it was the most accurate with results of an accuracy rate of 93% and a 9% precision rate when predicting "High Risk candidates. The sensitivity/recall rate was also the highest at 94% compared to the other models. 
+
+The result for predicting "Low Risk" was also the highest with the sensitivity rate at 94% and an F1 score of 97%. Therefore, if a model needed to be recommended to perform this type of analysis, then this one would be the clear choice.
+
+
+
+
+
+
+
+
