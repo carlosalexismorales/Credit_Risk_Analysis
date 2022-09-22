@@ -132,16 +132,30 @@ In the images below, we see the following:
 In this part of the analysis, we test a combination over- and under-sampling algorithm to determine if the algorithm results in the best performance compared to the other sampling algorithms above. We resample the data using the SMOTEENN algorithm.
 
 
+We see the following in the images below:
+
+- Balanced accuracy score: 65%
+- The 'High Risk' had a precision rate of 1% with the recall at 72% giving this model an F1 score of 2%.
+- The 'Low Risk' had a precision rate of 100% and recall at 57% giving this model an F1 score of 72%
+
+
+<img width="1010" alt="Screen Shot 2022-09-21 at 9 12 01 PM" src="https://user-images.githubusercontent.com/102444078/191656792-0c6581b8-be04-4bc6-a330-4df5b33fac5d.png">
 
 
 
 
+<img width="1014" alt="Screen Shot 2022-09-21 at 9 12 24 PM" src="https://user-images.githubusercontent.com/102444078/191656829-5706ba3d-df24-4862-8102-1e45d8a5ecdd.png">
+
+
+### Ensemble Learners
+
+In this part of the analysis, we compare two ensemble algorithms to determine which algorithm results in the best performance. We train a Balanced Random Forest Classifier and an Easy Ensemble AdaBoost classifier
+
+#### Balanced Forest Classifier
 
 
 
-
-
-
+<img width="1011" alt="Screen Shot 2022-09-21 at 9 16 21 PM" src="https://user-images.githubusercontent.com/102444078/191657293-7f342753-8079-4daf-a898-e5144955ed95.png">
 
 
  
